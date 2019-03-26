@@ -1,6 +1,6 @@
 package base;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -40,6 +40,19 @@ public class SimpleThreads {
 		Thread.sleep(100);
 		assertEquals(2,Thread.activeCount());
 
+	}
+	
+	@Test
+	public void testingRunnable() throws Exception {
+		MyRunnable runnable = new MyRunnable();
+		Thread t = new Thread(runnable);
+		t.start();
+		Thread.sleep(1000);
+		t.interrupt();
+		Thread.sleep(100);
+		System.out.println("Runnable counted for "+runnable.getCounter());
+		assertTrue(runnable.getCounter()>90);
+		
 	}
 	
 	
