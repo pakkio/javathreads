@@ -1,12 +1,17 @@
 package base;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class MyRunnable implements Runnable {
+	
+	private static Logger log = LoggerFactory.getLogger( MyRunnable.class );
 
 	private int counter=0;
 
 	@Override
 	public void run() {
-		//System.out.println("starting MyRunnable ");
+		log.debug("starting MyRunnable ");
 		while(!Thread.interrupted()) {
 			counter++;
 //			try {
@@ -18,7 +23,7 @@ public class MyRunnable implements Runnable {
 //			}
 //			System.out.println("Counter "+getCounter());
 		}
-		//System.out.println("stopping myRunnable");
+		log.debug("stopping myRunnable");
 		
 	}
 

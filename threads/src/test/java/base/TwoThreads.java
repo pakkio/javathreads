@@ -9,8 +9,12 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TwoThreads {
+	
+	private static Logger log = LoggerFactory.getLogger( TwoThreads.class );
 
 	@Test
 	public void test2Threads() throws InterruptedException {
@@ -56,7 +60,7 @@ public class TwoThreads {
 		//myRunners.forEach(r -> System.out.println("This thread counted for "+r.getCounter()));
 		Long totalCount = myRunners.stream().mapToLong(MyRunnable::getCounter).sum();
 		float ret = (float)totalCount/1024/1024/1024;
-		System.out.println("Total count G: "+ret+ " using "+(System.currentTimeMillis()-start)+" ms");
+		log.info("Total count G: {} using {} ms", ret, (System.currentTimeMillis()-start) );
 		return ret;
 	}
 

@@ -1,0 +1,7 @@
+23:54:26.788  3426 [main] INFO  base.SimpleThreads - Runnable counted for 635639125
+23:55:02.147  3412 [main] INFO  base.SimpleThreads - Runnable counted for 636948874
+23:55:19.208  201  [Thread-0] DEBUG base.MyThread - MyThread starting
+23:55:21.215  2208 [Thread-1] DEBUG base.MyThread - MyThread starting
+23:55:21.316  2309 [Thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+23:55:22.316  3309 [Thread-2] DEBUG base.MyRunnable - stopping myRunnable
+23:55:22.417  3410 [main] INFO  base.SimpleThreads - Runnable counted for 631926943

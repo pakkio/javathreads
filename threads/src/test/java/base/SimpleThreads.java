@@ -3,16 +3,20 @@ package base;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 public class SimpleThreads {
+	
+	private static Logger log = LoggerFactory.getLogger( SimpleThreads.class );
 	
 	// using a main instead of a test since this might never quit
 	public static void main(String[] args) {
 		Thread thread = new MyNeverEndingThread();
 		//thread.setDaemon(true);
 		thread.start();
-		System.out.println("Main ending");
+		log.info("Main ending");
 	}
 
 	@Test
@@ -50,7 +54,7 @@ public class SimpleThreads {
 		Thread.sleep(1000);
 		t.interrupt();
 		Thread.sleep(100);
-		System.out.println("Runnable counted for "+runnable.getCounter());
+		log.info("Runnable counted for "+runnable.getCounter());
 		assertTrue(runnable.getCounter()>90);
 		
 	}
