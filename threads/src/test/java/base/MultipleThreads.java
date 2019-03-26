@@ -12,9 +12,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TwoThreads {
+public class MultipleThreads {
 	
-	private static Logger log = LoggerFactory.getLogger( TwoThreads.class );
+	private static Logger log = LoggerFactory.getLogger( MultipleThreads.class );
 
 	@Test
 	public void test2Threads() throws InterruptedException {
