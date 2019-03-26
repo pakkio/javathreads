@@ -8,7 +8,7 @@ public class MyRunnable implements Runnable {
 	public void run() {
 		//System.out.println("starting MyRunnable ");
 		while(!Thread.interrupted()) {
-			setCounter(getCounter() + 1);
+			counter++;
 //			try {
 //				Thread.sleep(10);
 //			} catch (InterruptedException e) {

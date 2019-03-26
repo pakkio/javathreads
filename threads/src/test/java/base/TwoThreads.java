@@ -3,6 +3,8 @@ package base;
 import static org.junit.Assert.assertTrue;
 
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -31,6 +33,7 @@ public class TwoThreads {
 	}
 
 	private float multiThreading(int numOfThreads) throws InterruptedException {
+		long start = System.currentTimeMillis();
 		List<MyRunnable> myRunners = 
 				IntStream.range(0, numOfThreads)
 				.mapToObj(i -> new MyRunnable())
@@ -39,18 +42,21 @@ public class TwoThreads {
 		List<Thread> threads = myRunners.stream()
 				.map(Thread::new)
 				.collect(Collectors.toList());
+		threads.forEach(t->t.setDaemon(true));
 		
-		threads.forEach(Thread::start);
+		//ExecutorService service = Executors.newSingleThreadExecutor();
+		ExecutorService service = Executors.newFixedThreadPool(100);
+		threads.forEach(service::submit);
 		
 		Thread.sleep(1000);
 		
-		threads.forEach(Thread::interrupt);
-		Thread.sleep(100);
 		
-		myRunners.forEach(r -> System.out.println("This thread counted for "+r.getCounter()));
+		service.shutdownNow();
+		
+		//myRunners.forEach(r -> System.out.println("This thread counted for "+r.getCounter()));
 		Long totalCount = myRunners.stream().mapToLong(MyRunnable::getCounter).sum();
 		float ret = (float)totalCount/1024/1024/1024;
-		System.out.println("Total count G: "+ret);
+		System.out.println("Total count G: "+ret+ " using "+(System.currentTimeMillis()-start)+" ms");
 		return ret;
 	}
 
