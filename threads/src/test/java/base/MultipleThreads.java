@@ -17,14 +17,14 @@ public class MultipleThreads {
 	private static Logger log = LoggerFactory.getLogger( MultipleThreads.class );
 
 	@Test
-	public void test2Threads() throws InterruptedException {
+	public void testMultiThreads() throws InterruptedException {
 		
 		
-		float g1 = multiThreading(1);
-		float g8 = multiThreading(8);
-		float g20 = multiThreading(20);
-		float g100 = multiThreading(100);
-		float g1000 = multiThreading(1000);
+		float g1 = multiThreadingProcessingPowerForThreads(1);
+		float g8 = multiThreadingProcessingPowerForThreads(8);
+		float g20 = multiThreadingProcessingPowerForThreads(20);
+		float g100 = multiThreadingProcessingPowerForThreads(100);
+		float g1000 = multiThreadingProcessingPowerForThreads(1000);
 		
 		assertTrue(g8 > g1);
 		assertTrue(g20 > g8);
@@ -36,7 +36,7 @@ public class MultipleThreads {
 		
 	}
 
-	private float multiThreading(int numOfThreads) throws InterruptedException {
+	private float multiThreadingProcessingPowerForThreads(int numOfThreads) throws InterruptedException {
 		long start = System.currentTimeMillis();
 		List<MyRunnable> myRunners = 
 				IntStream.range(0, numOfThreads)
@@ -49,16 +49,19 @@ public class MultipleThreads {
 		threads.forEach(t->t.setDaemon(true));
 		
 		//ExecutorService service = Executors.newSingleThreadExecutor();
-		ExecutorService service = Executors.newFixedThreadPool(100);
+		ExecutorService service = Executors.newFixedThreadPool(8);
 		threads.forEach(service::submit);
 		
 		Thread.sleep(1000);
 		
-		
+		threads.forEach(Thread::interrupt);
 		service.shutdownNow();
 		
 		//myRunners.forEach(r -> System.out.println("This thread counted for "+r.getCounter()));
-		Long totalCount = myRunners.stream().mapToLong(MyRunnable::getCounter).sum();
+		Long totalCount = myRunners.stream()
+				.mapToLong(MyRunnable::getCounter)
+				.sum();
+		
 		float ret = (float)totalCount/1024/1024/1024;
 		log.info("Total count G: {} using {} ms", ret, (System.currentTimeMillis()-start) );
 		return ret;
