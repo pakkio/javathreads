@@ -6,19 +6,19 @@ public class MyRunnable implements Runnable {
 
 	@Override
 	public void run() {
-		System.out.println("starting MyRunnable ");
+		//System.out.println("starting MyRunnable ");
 		while(!Thread.interrupted()) {
 			setCounter(getCounter() + 1);
-			try {
-				Thread.sleep(10);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-				break;
-			}
-			System.out.println("Counter "+getCounter());
+//			try {
+//				Thread.sleep(10);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//				break;
+//			}
+//			System.out.println("Counter "+getCounter());
 		}
-		System.out.println("stopping myRunnable");
+		//System.out.println("stopping myRunnable");
 		
 	}
 
