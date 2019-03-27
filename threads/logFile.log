@@ -514,3 +514,1387 @@ t04_testingRunnable
 14:01:01.246  2296 [Thread-2] DEBUG base.MyRunnable - starting MyRunnable 
 14:01:02.249  3299 [Thread-2] DEBUG base.MyRunnable - stopping myRunnable
 14:01:02.354  3404 [main] INFO  base.SimpleThreads - Runnable counted for 531850673
+14:55:23.267  1228 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+14:55:23.270  1231 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+14:55:23.271  1232 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+14:55:23.317  1278 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+14:55:23.317  1278 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+14:55:23.317  1278 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+14:58:19.049  3188 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+14:58:19.054  3193 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+14:59:06.032  273  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+14:59:06.039  280  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:02:28.157  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:02:28.163  196  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:02:47.059  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:02:47.065  215  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.807  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.811  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.812  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:16.815  203  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.815  203  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.815  203  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.815  203  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.815  203  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.816  204  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.816  204  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.816  204  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.816  204  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:16.816  204  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.527  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.531  207  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.531  207  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.531  207  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.532  208  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.533  209  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.534  210  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.535  211  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.536  212  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.537  213  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.538  214  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.539  215  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.540  216  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.540  216  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.540  216  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.540  216  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.540  216  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.540  216  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.541  217  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.542  218  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.542  218  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:04:33.547  223  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.547  223  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.547  223  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.548  224  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.550  226  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.549  225  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.553  229  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.553  229  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.553  229  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.554  230  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.553  229  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.554  230  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.553  229  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.554  230  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.556  232  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.556  232  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.556  232  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.556  232  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.552  228  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.554  230  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.551  227  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.555  231  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.556  232  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.553  229  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.557  233  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.559  235  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:04:33.558  234  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:07:26.409  184  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.413  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.413  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.413  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.413  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.413  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.413  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.414  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.415  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.416  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.417  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.418  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.419  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:07:26.420  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.327  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.331  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.331  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.332  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.333  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.334  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.335  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.336  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.337  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:05.338  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.455  185  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.458  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.459  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.460  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.461  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.462  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.463  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.464  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.465  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.466  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.466  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.466  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.466  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.466  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.466  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:08:43.469  199  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.469  199  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.469  199  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.470  200  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.470  200  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.470  200  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.470  200  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.470  200  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.572  302  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.572  302  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.572  302  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.572  302  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.573  303  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.573  303  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.573  303  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.573  303  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.674  404  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.779  509  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.779  509  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.779  509  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.779  509  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.779  509  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.779  509  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.782  512  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.782  512  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.883  613  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.987  717  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.988  718  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.987  717  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.988  718  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.988  718  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.987  717  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.988  718  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:43.987  717  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.089  819  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.191  921  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.293  1023 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.399  1129 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.504  1234 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:08:44.610  1340 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.150  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.154  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.154  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.154  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.154  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.154  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.154  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.155  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.155  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.155  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.158  195  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.259  296  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:07.259  296  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.659  1181 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.661  1183 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:25.664  1186 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.664  1186 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.664  1186 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.664  1186 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.664  1186 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.665  1187 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.665  1187 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.665  1187 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.770  1292 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:25.770  1292 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:34.256  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:34.258  185  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:09:34.261  188  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:09:34.261  188  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:10:14.201  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:10:14.204  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:10:14.207  201  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:10:14.207  201  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.471  185  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.475  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.476  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.477  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.478  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.479  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.480  194  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.481  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.482  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.482  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.482  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:11:35.485  199  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.485  199  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.485  199  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.486  200  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.486  200  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.486  200  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.486  200  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.486  200  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.590  304  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.693  407  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.797  511  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:35.898  612  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.001  715  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.102  816  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.203  917  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.308  1022 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.410  1124 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.514  1228 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:11:36.616  1330 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.808  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.811  195  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.812  196  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.813  197  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.814  198  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.815  199  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.816  200  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.817  201  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.818  202  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.819  203  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:22:56.823  207  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.823  207  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.823  207  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.823  207  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.824  208  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.824  208  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.824  208  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.824  208  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:56.929  313  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.032  416  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.133  517  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.233  617  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.333  717  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.438  822  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.543  927  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.646  1030 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.748  1132 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.849  1233 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:57.951  1335 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.053  1437 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.154  1538 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.257  1641 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.362  1746 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.463  1847 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.568  1952 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.669  2053 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.774  2158 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.876  2260 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:22:58.981  2365 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.462  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.465  186  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.466  187  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.467  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.468  189  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.469  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.470  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.471  192  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.472  193  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:11.476  197  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.476  197  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.476  197  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.476  197  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.476  197  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.477  198  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.477  198  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.477  198  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.582  303  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.686  407  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.791  512  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.897  618  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:11.999  720  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.101  822  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.202  923  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.308  1029 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.413  1134 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.516  1237 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.617  1338 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.719  1440 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.822  1543 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:12.925  1646 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.026  1747 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.129  1850 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.230  1951 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.332  2053 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.434  2155 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.539  2260 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.643  2364 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.745  2466 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.847  2568 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:13.948  2669 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.053  2774 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.155  2876 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.257  2978 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.358  3079 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.460  3181 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.562  3283 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.664  3385 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.766  3487 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.868  3589 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:14.969  3690 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.071  3792 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.171  3892 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.276  3997 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.377  4098 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.480  4201 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.582  4303 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.684  4405 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.786  4507 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.888  4609 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:15.990  4711 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:16.092  4813 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:16.193  4914 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:16.295  5016 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:16.397  5118 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:16.500  5221 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:16.602  5323 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.322  351  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.326  355  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.326  355  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.326  355  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.326  355  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.326  355  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.327  356  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.328  357  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.329  358  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.330  359  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.331  360  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.332  361  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.333  362  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:23:49.337  366  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.337  366  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.337  366  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.337  366  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.337  366  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.338  367  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.338  367  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.338  367  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.442  471  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:23:49.443  472  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.544  573  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:49.544  573  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.644  673  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:49.645  674  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.745  774  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:49.745  774  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.846  875  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:49.847  876  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:49.948  977  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:49.948  977  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.050  1079 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:50.050  1079 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.151  1180 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:23:50.152  1181 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.252  1281 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:50.253  1282 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.354  1383 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:50.355  1384 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.456  1485 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:50.457  1486 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.558  1587 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:50.558  1587 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.659  1688 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:50.660  1689 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.760  1789 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:50.760  1789 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.862  1891 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:23:50.862  1891 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:50.965  1994 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:50.966  1995 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.067  2096 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:51.067  2096 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.172  2201 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:51.172  2201 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.276  2305 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:51.277  2306 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.382  2411 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:51.382  2411 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.483  2512 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:51.484  2513 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.589  2618 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:23:51.589  2618 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.690  2719 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:51.690  2719 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.790  2819 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:51.790  2819 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.891  2920 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:51.892  2921 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:51.992  3021 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:51.992  3021 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.092  3121 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:52.093  3122 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.194  3223 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:52.194  3223 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.296  3325 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:23:52.296  3325 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.397  3426 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:52.398  3427 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.499  3528 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:52.499  3528 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.601  3630 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:52.601  3630 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.702  3731 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:52.702  3731 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.803  3832 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:52.804  3833 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:52.908  3937 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:52.908  3937 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.013  4042 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:23:53.013  4042 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.114  4143 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:53.115  4144 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.216  4245 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:53.216  4245 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.321  4350 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:53.321  4350 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.424  4453 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:53.425  4454 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.529  4558 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:53.530  4559 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.631  4660 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:53.631  4660 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.732  4761 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:23:53.733  4762 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.835  4864 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:23:53.835  4864 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:53.937  4966 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:23:53.937  4966 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:54.038  5067 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:23:54.039  5068 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:54.140  5169 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:23:54.141  5170 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:54.242  5271 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:23:54.242  5271 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:54.344  5373 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:54.345  5374 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:54.447  5476 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:23:54.447  5476 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:23:54.552  5581 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:23:54.552  5581 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.968  179  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.972  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.972  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.972  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.972  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.972  183  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.973  184  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.973  184  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.973  184  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.973  184  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:16.976  187  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:17.077  288  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:24:17.077  288  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:17.181  392  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:24:17.182  393  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:17.282  493  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:24:17.384  595  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:24:17.486  697  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:24:17.587  798  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:24:17.689  900  [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:24:17.791  1002 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:24:17.893  1104 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:24:17.995  1206 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:24:22.810  178  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.813  181  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.814  182  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:22.816  184  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.816  184  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.816  184  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.816  184  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.817  185  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.817  185  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.817  185  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.817  185  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:22.919  287  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:24:22.920  288  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:23.021  389  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:24:23.021  389  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:23.123  491  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:24:23.224  592  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:24:23.329  697  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:24:23.434  802  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:24:23.535  903  [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:24:23.637  1005 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:24:23.738  1106 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:24:23.840  1208 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:24:52.541  188  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.543  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.543  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.543  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.543  190  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.544  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.544  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.544  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.544  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.544  191  [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.547  194  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.648  295  [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:24:52.649  296  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:24:52.648  295  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:24:52.648  295  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:24:52.648  295  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:24:52.648  295  [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:24:52.649  296  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.648  295  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:24:52.649  296  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:24:52.648  295  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:24:52.750  397  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:24:52.750  397  [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
