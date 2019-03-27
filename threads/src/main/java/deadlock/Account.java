@@ -4,7 +4,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Account {
-	/** The usual Logger.*/
+	/** The usual Logger. java editor templates 
+	 * 
+	 
+private static final Logger log = LoggerFactory.getLogger(${enclosing_type}.class);
+${:import('org.slf4j.Logger','org.slf4j.LoggerFactory')}
+	  
+	 * */
 	private static final Logger log = LoggerFactory.getLogger(Account.class);
 	
     private final String name;
