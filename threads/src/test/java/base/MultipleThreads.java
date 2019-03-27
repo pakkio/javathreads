@@ -33,10 +33,13 @@ public class MultipleThreads {
 	private float multiThreadingProcessingPowerForThreads(int numOfThreads) throws InterruptedException {
 		long start = System.currentTimeMillis();
 
-		List<MyRunnable> myRunners = IntStream.range(0, numOfThreads).mapToObj(i -> new MyRunnable())
+		List<MyRunnable> myRunners = IntStream.range(0, numOfThreads)
+				.mapToObj(i -> new MyRunnable())
 				.collect(Collectors.toList());
 
-		List<Thread> threads = myRunners.parallelStream().map(Thread::new).collect(Collectors.toList());
+		List<Thread> threads = myRunners.parallelStream()
+				.map(Thread::new)
+				.collect(Collectors.toList());
 
 		threads.forEach(t -> t.setDaemon(true));
 
@@ -51,7 +54,9 @@ public class MultipleThreads {
 
 		// myRunners.forEach(r -> System.out.println("This thread counted for
 		// "+r.getCounter()));
-		Long totalCount = myRunners.parallelStream().mapToLong(MyRunnable::getCounter).sum();
+		Long totalCount = myRunners.parallelStream()
+				.mapToLong(MyRunnable::getCounter)
+				.sum();
 
 		float ret = (float) totalCount / 1024 / 1024 / 1024;
 		log.info("Total count for {} G: {} using {} ms", numOfThreads, ret, (System.currentTimeMillis() - start));
