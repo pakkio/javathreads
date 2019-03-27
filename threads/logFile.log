@@ -481,3 +481,36 @@
 00:03:15.776  3279 [main] INFO  base.MultipleThreads - Total count G: 2.2360206 using 1010 ms
 00:03:16.794  4297 [main] INFO  base.MultipleThreads - Total count G: 2.185501 using 1018 ms
 00:03:17.820  5323 [main] INFO  base.MultipleThreads - Total count G: 2.1828763 using 1026 ms
+13:52:27.175  3399 [main] INFO  base.SimpleThreads - Runnable counted for 534565368
+13:53:01.250  217  [main] INFO  base.SimpleThreads - Current thread
+13:57:56.823  1192 [Thread-0] DEBUG base.MyRunnable - starting MyRunnable 
+13:57:57.822  2191 [Thread-0] DEBUG base.MyRunnable - stopping myRunnable
+13:57:57.927  2296 [main] INFO  base.SimpleThreads - Runnable counted for 529242790
+14:00:27.008  1223 [main] INFO  base.SimpleThreads - t01_shouldHave2ThreadsActive
+14:00:27.011  1226 [main] INFO  base.SimpleThreads - Current thread
+14:00:27.012  1227 [main] INFO  base.SimpleThreads - t02_creatingAThreadShouldHaveAnAdditionalActiveThread
+14:00:27.012  1227 [Thread-0] DEBUG base.MyThread - MyThread starting
+14:00:29.016  3231 [main] INFO  base.SimpleThreads - t03_interrupting_a_thread_if_we_give_enough_time_will_kill_it
+14:00:29.017  3232 [Thread-1] DEBUG base.MyThread - MyThread starting
+14:00:29.122  3337 [main] INFO  base.SimpleThreads - t04_testingRunnable
+14:00:29.124  3339 [Thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+14:00:30.127  4342 [Thread-2] DEBUG base.MyRunnable - stopping myRunnable
+14:00:30.230  4445 [main] INFO  base.SimpleThreads - Runnable counted for 529491457
+14:00:59.135  185  [main] INFO  base.SimpleThreads - 
+
+t01_shouldHave2ThreadsActive
+14:00:59.139  189  [main] INFO  base.SimpleThreads - Current thread
+14:00:59.140  190  [main] INFO  base.SimpleThreads - 
+
+t02_creatingAThreadShouldHaveAnAdditionalActiveThread
+14:00:59.140  190  [Thread-0] DEBUG base.MyThread - MyThread starting
+14:01:01.142  2192 [main] INFO  base.SimpleThreads - 
+
+t03_interrupting_a_thread_if_we_give_enough_time_will_kill_it
+14:01:01.142  2192 [Thread-1] DEBUG base.MyThread - MyThread starting
+14:01:01.244  2294 [main] INFO  base.SimpleThreads - 
+
+t04_testingRunnable
+14:01:01.246  2296 [Thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+14:01:02.249  3299 [Thread-2] DEBUG base.MyRunnable - stopping myRunnable
+14:01:02.354  3404 [main] INFO  base.SimpleThreads - Runnable counted for 531850673
