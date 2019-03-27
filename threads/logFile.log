@@ -2160,3 +2160,84 @@ t04_testingRunnable
 16:56:45.936  188  [Thread-1] INFO  deadlock.Account - withdrawing 500.0 in Acc 2
 16:56:46.941  1193 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
 16:56:46.941  1193 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0
+23:44:21.996  207  [pool-1-thread-1] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:22.995  1206 [pool-1-thread-1] DEBUG base.MyRunnable - stopping myRunnable
+23:44:22.997  1208 [main] INFO  base.MultipleThreads - Total count G: 0.7021995 using 1050 ms
+23:44:23.000  1211 [pool-2-thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-1] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-5] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-6] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-3] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-4] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-8] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:23.000  1211 [pool-2-thread-7] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.015  2226 [pool-2-thread-2] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-6] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-5] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-7] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-1] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-3] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-4] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [pool-2-thread-8] DEBUG base.MyRunnable - stopping myRunnable
+23:44:24.015  2226 [main] INFO  base.MultipleThreads - Total count G: 2.8091812 using 1017 ms
+23:44:24.016  2227 [pool-3-thread-1] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.016  2227 [pool-3-thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.016  2227 [pool-3-thread-4] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.016  2227 [pool-3-thread-3] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.016  2227 [pool-3-thread-7] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.016  2227 [pool-3-thread-5] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.017  2228 [pool-3-thread-6] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:24.019  2230 [pool-3-thread-8] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.028  3239 [pool-3-thread-2] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-1] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-5] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-3] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-7] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-6] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-8] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [pool-3-thread-4] DEBUG base.MyRunnable - stopping myRunnable
+23:44:25.028  3239 [main] INFO  base.MultipleThreads - Total count G: 2.4702373 using 1013 ms
+23:44:25.029  3240 [pool-4-thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.029  3240 [pool-4-thread-3] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.029  3240 [pool-4-thread-1] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.029  3240 [pool-4-thread-4] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.030  3241 [pool-4-thread-5] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.030  3241 [pool-4-thread-7] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.030  3241 [pool-4-thread-6] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:25.033  3244 [pool-4-thread-8] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.038  4249 [pool-4-thread-5] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [pool-4-thread-2] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [pool-4-thread-4] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [main] INFO  base.MultipleThreads - Total count G: 2.437081 using 1010 ms
+23:44:26.038  4249 [pool-4-thread-7] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [pool-4-thread-6] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [pool-4-thread-3] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [pool-4-thread-8] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.038  4249 [pool-4-thread-1] DEBUG base.MyRunnable - stopping myRunnable
+23:44:26.043  4254 [pool-5-thread-2] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.043  4254 [pool-5-thread-4] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.043  4254 [pool-5-thread-3] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.050  4261 [pool-5-thread-5] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.043  4254 [pool-5-thread-1] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.050  4261 [pool-5-thread-8] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.050  4261 [pool-5-thread-7] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:26.050  4261 [pool-5-thread-6] DEBUG base.MyRunnable - starting MyRunnable 
+23:44:27.060  5271 [pool-5-thread-5] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-7] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-2] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-4] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-8] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-6] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-1] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.060  5271 [pool-5-thread-3] DEBUG base.MyRunnable - stopping myRunnable
+23:44:27.061  5272 [main] INFO  base.MultipleThreads - Total count G: 3.5061026 using 1023 ms
+23:45:02.313  1198 [main] INFO  base.MultipleThreads - Total count G: 0.701575 using 1051 ms
+23:45:03.327  2212 [main] INFO  base.MultipleThreads - Total count G: 2.91199 using 1011 ms
+23:45:04.337  3222 [main] INFO  base.MultipleThreads - Total count G: 2.2969832 using 1010 ms
+23:45:05.385  4270 [main] INFO  base.MultipleThreads - Total count G: 2.9383137 using 1048 ms
+23:45:06.401  5286 [main] INFO  base.MultipleThreads - Total count G: 2.4784083 using 1016 ms
+23:48:09.947  1206 [main] INFO  base.MultipleThreads - Total count for 1 G: 0.69323665 using 1045 ms
+23:48:10.964  2223 [main] INFO  base.MultipleThreads - Total count for 8 G: 2.9275951 using 1015 ms
+23:48:11.968  3227 [main] INFO  base.MultipleThreads - Total count for 20 G: 2.5625052 using 1004 ms
+23:48:12.974  4233 [main] INFO  base.MultipleThreads - Total count for 100 G: 2.8365254 using 1006 ms
+23:48:13.983  5242 [main] INFO  base.MultipleThreads - Total count for 1000 G: 2.5143883 using 1009 ms

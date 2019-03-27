@@ -9,13 +9,12 @@ public class Transfer implements Runnable {
 	private BankAccount from;
 	private BankAccount to;
 	private double value;
-	
+
 	public Transfer(BankAccount a, BankAccount b, Double value) {
 		this.from = a;
 		this.to = b;
 		this.value = value;
-		log.debug("Prepare to transfer value {} from {} to {}",
-				new Object[] { value, a.getName(), b.getName() });
+		log.debug("Prepare to transfer value {} from {} to {}", value, a.getName(), b.getName());
 
 	}
 
@@ -32,12 +31,12 @@ public class Transfer implements Runnable {
 			}
 			log.info("Depositing {} to {}", value, to.getName());
 			to.addAmount(value);
-			
+
 		} catch (InsufficientFunds e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
 
 }

@@ -18,7 +18,7 @@ public class Transaction implements Runnable {
 		this.type = type;
 		this.account = b;
 		this.value = value;
-		log.debug("Prepare to do operation {} value {} with {}", new Object[] { type.toString(), value, b.getName() });
+		log.debug("Prepare to do operation {} value {} with {}", type.toString(), value, b.getName());
 
 	}
 
@@ -29,9 +29,9 @@ public class Transaction implements Runnable {
 		case DEPOSIT:
 
 			log.debug("Actually adding {} to {}", value, account.getName());
-			
+
 			account.addAmount(value);
-			
+
 			log.debug("Finished adding");
 			break;
 		case WITHDRAW:
