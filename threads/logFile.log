@@ -1898,3 +1898,265 @@ t04_testingRunnable
 15:24:52.648  295  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
 15:24:52.750  397  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
 15:24:52.750  397  [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:33:23.878  1191 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.881  1194 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.881  1194 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.881  1194 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.881  1194 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.881  1194 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.881  1194 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.882  1195 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.882  1195 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.882  1195 [main] DEBUG synchronization.Transaction - Prepare to add 100.0 to Jim
+15:33:23.884  1197 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.885  1198 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.989  1302 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:33:23.989  1302 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:33:23.989  1302 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:33:23.990  1303 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:33:23.989  1302 [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:33:23.989  1302 [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:33:23.990  1303 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:33:23.990  1303 [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.990  1303 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:33:23.990  1303 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:33:24.091  1404 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:33:24.091  1404 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:48:13.079  224  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.088  233  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.088  233  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.088  233  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.088  233  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.088  233  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.088  233  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.089  234  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.089  234  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.089  234  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:48:13.092  237  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.092  237  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.192  337  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:48:13.193  338  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.297  442  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:48:13.298  443  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.399  544  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:48:13.399  544  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.504  649  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:48:13.504  649  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.604  749  [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:48:13.605  750  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.708  853  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:48:13.708  853  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.811  956  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:48:13.812  957  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.915  1060 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:48:13.916  1061 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:13.916  1061 [pool-1-thread-3] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:13.916  1061 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:48:14.021  1166 [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:48:14.021  1166 [pool-1-thread-7] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:48:14.124  1269 [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:48:14.125  1270 [pool-1-thread-6] DEBUG synchronization.Transaction - Actually withdrawing 100.0 from Jim
+15:49:20.980  190  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.984  194  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:49:20.987  197  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.987  197  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.987  197  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.987  197  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.987  197  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.987  197  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.988  198  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:20.988  198  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:21.091  301  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:49:21.091  301  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:21.191  401  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:49:21.191  401  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:49:21.292  502  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:49:21.394  604  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:49:21.494  704  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:49:21.595  805  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:49:21.696  906  [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:49:21.799  1009 [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:49:21.900  1110 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:49:22.002  1212 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:50:45.877  184  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.880  187  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.881  188  [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value DEPOSIT with 100.0
+15:50:45.884  191  [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:45.985  292  [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+15:50:45.985  292  [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.086  393  [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:50:46.086  393  [pool-1-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.187  494  [pool-1-thread-7] DEBUG synchronization.Transaction - Finished adding
+15:50:46.188  495  [pool-1-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.289  596  [pool-1-thread-6] DEBUG synchronization.Transaction - Finished adding
+15:50:46.289  596  [pool-1-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.394  701  [pool-1-thread-5] DEBUG synchronization.Transaction - Finished adding
+15:50:46.395  702  [pool-1-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.498  805  [pool-1-thread-4] DEBUG synchronization.Transaction - Finished adding
+15:50:46.499  806  [pool-1-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.599  906  [pool-1-thread-3] DEBUG synchronization.Transaction - Finished adding
+15:50:46.600  907  [pool-1-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.701  1008 [pool-1-thread-2] DEBUG synchronization.Transaction - Finished adding
+15:50:46.701  1008 [pool-1-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.803  1110 [pool-1-thread-8] DEBUG synchronization.Transaction - Finished adding
+15:50:46.803  1110 [pool-1-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+15:50:46.907  1214 [pool-1-thread-1] DEBUG synchronization.Transaction - Finished adding
+16:17:51.567  1359 [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 fro A to B
+16:17:51.570  1362 [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 fro B to A
+16:19:22.297  195  [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 fro A to B
+16:19:22.301  199  [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 fro B to A
+16:19:22.302  200  [Thread-0] INFO  synchronization.Transfer - Withdrawing 0.0 from A
+16:19:22.302  200  [Thread-1] INFO  synchronization.Transfer - Withdrawing 0.0 from B
+16:19:22.505  403  [Thread-0] INFO  synchronization.Transfer - Depositing 0.0 to B
+16:19:22.505  403  [Thread-1] INFO  synchronization.Transfer - Depositing 0.0 to A
+16:19:49.236  1183 [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 from A to B
+16:19:49.240  1187 [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 from B to A
+16:19:49.241  1188 [Thread-0] INFO  synchronization.Transfer - Withdrawing 100.0 from A
+16:19:49.241  1188 [Thread-1] INFO  synchronization.Transfer - Withdrawing 100.0 from B
+16:20:30.693  1192 [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 from A to B
+16:20:30.696  1195 [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 from B to A
+16:20:30.696  1195 [Thread-0] INFO  synchronization.Transfer - Withdrawing 100.0 from A
+16:20:30.696  1195 [Thread-1] INFO  synchronization.Transfer - Withdrawing 100.0 from B
+16:20:30.901  1400 [Thread-1] INFO  synchronization.Transfer - Depositing 100.0 to A
+16:20:30.901  1400 [Thread-0] INFO  synchronization.Transfer - Depositing 100.0 to B
+16:20:31.755  2254 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.755  2254 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.756  2255 [main] DEBUG synchronization.Transaction - Prepare to do operation DEPOSIT value 100.0 with Jim
+16:20:31.759  2258 [pool-2-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-3] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-2] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-4] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-5] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-6] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-7] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.759  2258 [pool-2-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.860  2359 [pool-2-thread-1] DEBUG synchronization.Transaction - Finished adding
+16:20:31.861  2360 [pool-2-thread-1] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:31.961  2460 [pool-2-thread-8] DEBUG synchronization.Transaction - Finished adding
+16:20:31.962  2461 [pool-2-thread-8] DEBUG synchronization.Transaction - Actually adding 100.0 to Jim
+16:20:32.062  2561 [pool-2-thread-7] DEBUG synchronization.Transaction - Finished adding
+16:20:32.167  2666 [pool-2-thread-6] DEBUG synchronization.Transaction - Finished adding
+16:20:32.269  2768 [pool-2-thread-5] DEBUG synchronization.Transaction - Finished adding
+16:20:32.371  2870 [pool-2-thread-4] DEBUG synchronization.Transaction - Finished adding
+16:20:32.477  2976 [pool-2-thread-2] DEBUG synchronization.Transaction - Finished adding
+16:20:32.581  3080 [pool-2-thread-3] DEBUG synchronization.Transaction - Finished adding
+16:20:32.686  3185 [pool-2-thread-8] DEBUG synchronization.Transaction - Finished adding
+16:20:32.789  3288 [pool-2-thread-1] DEBUG synchronization.Transaction - Finished adding
+16:20:51.594  188  [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 from A to B
+16:20:51.597  191  [main] DEBUG synchronization.Transfer - Prepare to transfer value 100.0 from B to A
+16:20:51.598  192  [Thread-0] INFO  synchronization.Transfer - Withdrawing 100.0 from A
+16:20:51.598  192  [Thread-1] INFO  synchronization.Transfer - Withdrawing 100.0 from B
+16:20:51.800  394  [Thread-1] INFO  synchronization.Transfer - Depositing 100.0 to A
+16:20:51.800  394  [Thread-0] INFO  synchronization.Transfer - Depositing 100.0 to B
+16:47:09.066  189  [main] INFO  deadlock.Account - depositing
+16:47:09.069  192  [main] INFO  deadlock.Account - depositing
+16:47:09.069  192  [Thread-0] INFO  deadlock.Account - withdrawing
+16:47:09.069  192  [Thread-1] INFO  deadlock.Account - withdrawing
+16:49:02.344  199  [main] INFO  deadlock.Account - depositing
+16:49:02.347  202  [main] INFO  deadlock.Account - depositing
+16:49:02.348  203  [Thread-0] INFO  deadlock.Account - withdrawing
+16:49:02.348  203  [Thread-1] INFO  deadlock.Account - withdrawing
+16:49:02.348  203  [main] INFO  deadlock.TransactionTest - Account 1 is Acc 1
+16:49:02.348  203  [main] INFO  deadlock.TransactionTest - Account 2 is Acc 2
+16:49:18.898  1205 [main] INFO  deadlock.Account - depositing
+16:49:18.901  1208 [main] INFO  deadlock.Account - depositing
+16:49:18.901  1208 [Thread-0] INFO  deadlock.Account - withdrawing
+16:49:18.901  1208 [main] INFO  deadlock.TransactionTest - Account 1 is 1000.0
+16:49:18.901  1208 [Thread-1] INFO  deadlock.Account - withdrawing
+16:49:18.902  1209 [main] INFO  deadlock.TransactionTest - Account 2 is 1000.0
+16:49:51.725  185  [main] INFO  deadlock.Account - depositing
+16:49:51.729  189  [main] INFO  deadlock.Account - depositing
+16:49:51.730  190  [Thread-0] INFO  deadlock.Account - withdrawing
+16:49:51.730  190  [main] INFO  deadlock.TransactionTest - Account 1 is 1000.0
+16:49:51.730  190  [Thread-1] INFO  deadlock.Account - withdrawing
+16:49:51.730  190  [main] INFO  deadlock.TransactionTest - Account 2 is 1000.0
+16:49:53.673  172  [main] INFO  deadlock.Account - depositing
+16:49:53.675  174  [main] INFO  deadlock.Account - depositing
+16:49:53.676  175  [Thread-0] INFO  deadlock.Account - withdrawing
+16:49:53.676  175  [main] INFO  deadlock.TransactionTest - Account 1 is 1000.0
+16:49:53.676  175  [Thread-1] INFO  deadlock.Account - withdrawing
+16:49:53.676  175  [main] INFO  deadlock.TransactionTest - Account 2 is 1000.0
+16:49:55.146  178  [main] INFO  deadlock.Account - depositing
+16:49:55.148  180  [main] INFO  deadlock.Account - depositing
+16:49:55.149  181  [Thread-0] INFO  deadlock.Account - withdrawing
+16:49:55.149  181  [main] INFO  deadlock.TransactionTest - Account 1 is 1000.0
+16:49:55.149  181  [Thread-1] INFO  deadlock.Account - withdrawing
+16:49:55.149  181  [main] INFO  deadlock.TransactionTest - Account 2 is 1000.0
+16:50:31.451  192  [main] INFO  deadlock.Account - depositing
+16:50:31.454  195  [main] INFO  deadlock.Account - depositing
+16:50:31.455  196  [Thread-0] INFO  deadlock.Account - withdrawing
+16:50:31.455  196  [Thread-1] INFO  deadlock.Account - withdrawing
+16:50:32.460  1201 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
+16:50:32.461  1202 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0
+16:51:01.465  175  [main] INFO  deadlock.Account - depositing
+16:51:01.468  178  [main] INFO  deadlock.Account - depositing
+16:51:01.468  178  [Thread-0] INFO  deadlock.Account - withdrawing
+16:51:01.468  178  [Thread-1] INFO  deadlock.Account - withdrawing
+16:51:02.474  1184 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
+16:51:02.474  1184 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0
+16:51:04.917  173  [main] INFO  deadlock.Account - depositing
+16:51:04.919  175  [main] INFO  deadlock.Account - depositing
+16:51:04.920  176  [Thread-0] INFO  deadlock.Account - withdrawing
+16:51:04.920  176  [Thread-1] INFO  deadlock.Account - withdrawing
+16:51:05.926  1182 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
+16:51:05.926  1182 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0
+16:51:08.117  177  [main] INFO  deadlock.Account - depositing
+16:51:08.119  179  [main] INFO  deadlock.Account - depositing
+16:51:08.120  180  [Thread-0] INFO  deadlock.Account - withdrawing
+16:51:08.120  180  [Thread-1] INFO  deadlock.Account - withdrawing
+16:51:09.124  1184 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
+16:51:09.124  1184 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0
+16:51:38.443  301  [main] INFO  deadlock.Account - depositing
+16:51:38.447  305  [main] INFO  deadlock.Account - depositing
+16:51:38.448  306  [Thread-0] INFO  deadlock.Account - withdrawing
+16:51:38.448  306  [Thread-1] INFO  deadlock.Account - withdrawing
+16:55:30.662  237  [main] INFO  deadlock.Account - depositing
+16:55:30.665  240  [main] INFO  deadlock.Account - depositing
+16:55:30.666  241  [Thread-0] INFO  deadlock.Account - withdrawing
+16:55:30.666  241  [Thread-1] INFO  deadlock.Account - withdrawing
+16:55:42.156  187  [main] INFO  deadlock.Account - depositing
+16:55:42.158  189  [main] INFO  deadlock.Account - depositing
+16:55:42.159  190  [Thread-0] INFO  deadlock.Account - withdrawing
+16:55:42.159  190  [Thread-1] INFO  deadlock.Account - withdrawing
+16:55:43.165  1196 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
+16:55:43.165  1196 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0
+16:56:45.933  185  [main] INFO  deadlock.Account - depositing 1000.0 in Acc 1
+16:56:45.935  187  [main] INFO  deadlock.Account - depositing 1000.0 in Acc 2
+16:56:45.936  188  [Thread-0] INFO  deadlock.Account - withdrawing 100.0 in Acc 1
+16:56:45.936  188  [Thread-1] INFO  deadlock.Account - withdrawing 500.0 in Acc 2
+16:56:46.941  1193 [main] INFO  deadlock.TransactionTest - Account 1 is 900.0
+16:56:46.941  1193 [main] INFO  deadlock.TransactionTest - Account 2 is 500.0

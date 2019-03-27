@@ -25,12 +25,18 @@ public class BankAccount {
 		this.name = name;
 	}
 	
-	//synchronized
-	public void addAmount(double value) throws InterruptedException {
+	synchronized
+	public void addAmount(double value) {
 		double original = this.amount;
-		Thread.sleep(100);	
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
 		this.amount = original +  value;
 	}
+	synchronized
 	public void subtractAmount(double value) throws InsufficientFunds {
 		if(amount - value < 0 ) throw new InsufficientFunds();
 		amount -= value;
