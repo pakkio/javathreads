@@ -8,10 +8,10 @@ public class Ex01_Task {
 			System.out.println("Hello " + threadName);
 		};
 
-		task.run();
+		task.run(); // hello main
 
 		Thread thread = new Thread(task);
-		thread.start();
+		thread.start(); // hello Thread-0
 
 		System.out.println("Done!");
 	}
