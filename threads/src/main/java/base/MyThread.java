@@ -10,7 +10,7 @@ public class MyThread extends Thread {
 	public void run() {
 		try {
 			log.debug("MyThread starting");
-			Thread.sleep(2000);
+			Thread.sleep(999000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

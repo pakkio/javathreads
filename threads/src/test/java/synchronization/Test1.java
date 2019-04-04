@@ -52,7 +52,7 @@ public class Test1 {
 		
 		threads.forEach(t -> executor.submit(t));
 
-		Thread.sleep(2000);
+		Thread.sleep(10000);
 		
 		assertEquals(NUM*VALUE,b.getAmount(),0.001);
 		

@@ -35,7 +35,7 @@ public class TransactionTest {
         t1.join();
         t2.join();
         
-        
+        log.info("Test ended");
         
 	}
 

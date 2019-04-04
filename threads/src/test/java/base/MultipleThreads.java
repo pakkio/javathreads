@@ -38,7 +38,7 @@ public class MultipleThreads {
 				.collect(Collectors.toList());
 
 		List<Thread> threads = myRunners.parallelStream()
-				.map(Thread::new)
+				.map(r -> new Thread(r))
 				.collect(Collectors.toList());
 
 		threads.forEach(t -> t.setDaemon(true));
@@ -49,13 +49,13 @@ public class MultipleThreads {
 
 		Thread.sleep(1000);
 
-		threads.forEach(Thread::interrupt);
+		threads.forEach(t -> t.interrupt());
 		service.shutdownNow();
 
 		// myRunners.forEach(r -> System.out.println("This thread counted for
 		// "+r.getCounter()));
 		Long totalCount = myRunners.parallelStream()
-				.mapToLong(MyRunnable::getCounter)
+				.mapToLong(r -> r.getCounter())
 				.sum();
 
 		float ret = (float) totalCount / 1024 / 1024 / 1024;

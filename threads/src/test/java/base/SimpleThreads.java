@@ -41,7 +41,7 @@ public class SimpleThreads {
 		
 	}
 	
-	@Test
+	@Test 
 	//public void interruptingAThreadIfWeGiveEnoughTimeWillKillIt() throws InterruptedException {
 	public void t03_interrupting_a_thread_if_we_give_enough_time_will_kill_it() throws InterruptedException {
 		log.info("\n\nt03_interrupting_a_thread_if_we_give_enough_time_will_kill_it");
